@@ -1,0 +1,14 @@
+name: ForceSleep
+version: 1.0
+author: Wolinski Piotr
+main: com.gmail.wolinskip.forcesleep.ForceSleep
+commands:
+ forcesleep:
+   aliases: fs
+   description: Shows few interesting informations.
+   permission: forcesleep.info
+   usage: /forcesleep info
+permissions:
+ forcesleep.immunity:
+  description: Gives tax immunity to player
+  default: op
